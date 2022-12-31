@@ -1,0 +1,562 @@
+[
+    {
+        "id": "968dcf8d6abf9fba",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "938a8f8af8df6262",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#d60000",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Truck Fleet Simulator",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "90a439fac31cd5b8",
+        "type": "ui_group",
+        "name": "Map",
+        "tab": "626fef6af39bb068",
+        "order": 4,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "626fef6af39bb068",
+        "type": "ui_tab",
+        "name": "Truck Fleet Simulator",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2d544dc0e8b3ca9b",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "626fef6af39bb068",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "ab9cff37256b0f28",
+        "type": "ui_spacer",
+        "z": "968dcf8d6abf9fba",
+        "name": "spacer",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 6,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "7104d3b010d04d79",
+        "type": "ui_spacer",
+        "z": "968dcf8d6abf9fba",
+        "name": "spacer",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 10,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "03ccba6bb4fa35d4",
+        "type": "ui_worldmap",
+        "z": "968dcf8d6abf9fba",
+        "group": "90a439fac31cd5b8",
+        "order": 1,
+        "width": 17,
+        "height": 9,
+        "name": "",
+        "lat": "35.6812",
+        "lon": "139.7671",
+        "zoom": "14",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "false",
+        "showruler": "true",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "TL",
+        "maplist": "OSMC",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 840,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b55164706ea05dfd",
+        "type": "worldmap in",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "path": "/worldmap",
+        "events": "connect,disconnect,point,layer,bounds,files,draw,other",
+        "x": 840,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d11f0c8955496890",
+        "type": "worldmap-tracks",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "depth": 20,
+        "layer": "combined",
+        "smooth": false,
+        "x": 810,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e55ac929ad5389f",
+        "type": "ui_text_input",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "label": "Warehouse Latitude",
+        "tooltip": "",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "lat",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 280,
+        "y": 120,
+        "wires": [
+            [
+                "9b0715a0c3675435"
+            ]
+        ]
+    },
+    {
+        "id": "dcac4f2b48027ba0",
+        "type": "ui_text_input",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "label": "Warehouse Longitude",
+        "tooltip": "",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "lon",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 280,
+        "y": 160,
+        "wires": [
+            [
+                "9b0715a0c3675435"
+            ]
+        ]
+    },
+    {
+        "id": "effb8af60a7d4503",
+        "type": "ui_button",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 440,
+        "wires": [
+            [
+                "d47eaa8b84ad1c14"
+            ]
+        ]
+    },
+    {
+        "id": "5e6e7e7a6893af60",
+        "type": "ui_text_input",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "label": "Number of Trucks",
+        "tooltip": "",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "number_of_trucks",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 270,
+        "y": 200,
+        "wires": [
+            [
+                "9b0715a0c3675435"
+            ]
+        ]
+    },
+    {
+        "id": "7ebe7f900ed5a4b1",
+        "type": "ui_text_input",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "label": "Number of Destinations",
+        "tooltip": "",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "number_of_destinations",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 290,
+        "y": 380,
+        "wires": [
+            [
+                "9d7bb2df8261bea5"
+            ]
+        ]
+    },
+    {
+        "id": "fc36f3611adf533e",
+        "type": "ui_text_input",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "label": "Number of Drivers",
+        "tooltip": "",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "number_of_drivers",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "9b0715a0c3675435"
+            ]
+        ]
+    },
+    {
+        "id": "b0e2141600fb442e",
+        "type": "ui_dropdown",
+        "z": "968dcf8d6abf9fba",
+        "name": "",
+        "label": "Type of Destinations",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "convenience store",
+                "value": "convenience store",
+                "type": "str"
+            },
+            {
+                "label": "pharmacy",
+                "value": "pharmacy",
+                "type": "str"
+            },
+            {
+                "label": " vending machine",
+                "value": " vending machine",
+                "type": "str"
+            },
+            {
+                "label": "restaurant",
+                "value": "restaurant",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "type_of_destinations",
+        "topicType": "str",
+        "className": "",
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "9d7bb2df8261bea5"
+            ]
+        ]
+    },
+    {
+        "id": "55546a77a83ffd4b",
+        "type": "ui_text",
+        "z": "968dcf8d6abf9fba",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Fleet Settings",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 260,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "2b024011b2c19d04",
+        "type": "ui_text",
+        "z": "968dcf8d6abf9fba",
+        "group": "2d544dc0e8b3ca9b",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Task Settings",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 250,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8f6cbc22c366d4eb",
+        "type": "google places",
+        "z": "968dcf8d6abf9fba",
+        "reqType": "placesNearby",
+        "googleAPI": "",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "query": "",
+        "radius": "",
+        "rankBy": "",
+        "keyword": "",
+        "language": "",
+        "minPrice": "",
+        "maxPrice": "",
+        "placeName": "",
+        "placeId": "",
+        "extensions": "",
+        "openNow": "",
+        "types": "",
+        "outputnumber": "1",
+        "outputas": "single",
+        "x": 640,
+        "y": 440,
+        "wires": [
+            [
+                "23451c23c4613da8"
+            ]
+        ]
+    },
+    {
+        "id": "d47eaa8b84ad1c14",
+        "type": "function",
+        "z": "968dcf8d6abf9fba",
+        "name": "function 1",
+        "func": "msg.key = env.get('GCP_API_KEY');\n\nconst fleetSettings = flow.get('fleetSettings');\nmsg.location = { lat: fleetSettings.lat, lon: fleetSettings.lon };\nmsg.location.radius  = 50000;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "8f6cbc22c366d4eb"
+            ]
+        ]
+    },
+    {
+        "id": "9b0715a0c3675435",
+        "type": "function",
+        "z": "968dcf8d6abf9fba",
+        "name": "set to flow.fleetSettings",
+        "func": "flow.set('fleetSettings', {\n    ...flow.get('fleetSettings') || {}, \n    [msg.topic]: msg.payload \n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d7bb2df8261bea5",
+        "type": "function",
+        "z": "968dcf8d6abf9fba",
+        "name": "set to flow.taskSettings",
+        "func": "flow.set('taskSettings', {\n    ...flow.get('taskSettings') || {}, \n    [msg.topic]: msg.payload \n});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23451c23c4613da8",
+        "type": "debug",
+        "z": "968dcf8d6abf9fba",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 540,
+        "wires": []
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-maps": "~0.2.2",
+        "node-red-contrib-viseo-google-maps": "~0.2.0",
+        "node-red-contrib-web-worldmap": "~2.32.0",
+        "node-red-dashboard": "~3.2.3",
+        "node-red-node-google": "~0.2.2"
+    }
+}
